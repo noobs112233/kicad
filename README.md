@@ -107,6 +107,73 @@ Footprint 庫同理：`Preferences > Manage Footprint Libraries > Project Specif
 
 ---
 
+## BOM ↔ 符號庫 對照表
+
+> ⚠️ 符號庫的命名不統一 — 有些用「料號」(`ATmega2560_16AU`)、有些用「通用封裝名」(`Fuse_1812`、`C_SMD_0603`)。直接搜料號常常找不到，請對照下表搜尋：
+
+### 被動元件
+| BOM Ref | 元件 | **在符號庫搜這個名字** |
+|---|---|---|
+| C1–C16 | 0603 SMD 電容 | `C_SMD_0603` |
+| PC1, PC2 | 47µF 鋁電解 (THT) | `C_Pol` |
+| R1, R2 | 0603 SMD 電阻 | `R_SMD_0603` |
+| RN1–RN5 | SIP8 排阻 | `RArray_4x0612` |
+| L1 | Ferrite bead 0805 | `FerriteBead_0805` |
+| **F1** | **PPTC182LFBN-RC Polyfuse 1812** | **`Fuse_1812`** ← 不是料號！ |
+
+### 主動元件
+| BOM Ref | 元件 | **搜這個名字** |
+|---|---|---|
+| IC1 | LD1117 5V LDO (SOT-223) | `NCP1117_5_0_SOT223` ⚠️ 符號名是 NCP1117，pin out 相容 |
+| IC3 | ATmega2560 | `ATmega2560_16AU` |
+| IC4 | ATmega16U2 | `ATmega16U2_MU` |
+| IC6 | LP2985 3.3V LDO | `LP2985_3_3` |
+| IC7 | LMV358 op-amp | `LMV358` |
+| T1 | PMV48XP P-MOSFET | `Q_PMOS_GSD` |
+| D1 | M7 整流二極體 (SMB) | `D_SMB` |
+| D2, D3 | CD1206 高速二極體 | `D_1206` |
+| Z1, Z2 | 0603 ESD Varistor | `Varistor_0603` |
+
+### 振盪器 / 開關 / LED
+| BOM Ref | 元件 | **搜這個名字** |
+|---|---|---|
+| Y1 | CSTCE16M0V53-R0 三腳陶瓷諧振器 | `Resonator_3Pin` |
+| Y2 | 16MHz HC-49/S 晶振 | `Crystal_HC49` |
+| RESET | TS42 Tactile 按鍵 | `SW_Reset` |
+| ON / L / RX / TX | 0805 LED | `LED_0805` |
+
+### 連接器
+| BOM Ref | 元件 | **搜這個名字** |
+|---|---|---|
+| X1 | DC 電源座 2.1mm | `Barrel_Jack_Switch` |
+| X2 | USB Type-B (BOM) ※ 符號庫實作為 USB-C | `USB_C_16P` ⚠️ 與 BOM 不一致，依 Rev3e 改為 USB-C |
+| ICSP, ICSP1 | 2x3 排針 | `Header_2x03` |
+| JP5 | 2x2 排針 | `Header_2x02` |
+| JP6 | 1x10 排母 | `Conn_01x10` |
+| POWER, ADCH, ADCL, COMMUNICATION, PWML | 1x8 排母 | `Conn_01x08` |
+| XIO | 2x18 排母 | `Conn_02x18_Odd_Even` |
+
+### 雜項
+| BOM Ref | 元件 | **搜這個名字** |
+|---|---|---|
+| GROUND, RESET-EN | Solder jumper | `SolderJumper_2` |
+| FD1–FD4 | Fiducial | `Fiducial_1mm` |
+
+### 電源符號（不在 BOM，畫線時需要）
+| 用途 | 名稱 |
+|---|---|
+| 5V 電源 | `PWR_5V` |
+| 3.3V 電源 | `PWR_3V3` |
+| GND | `PWR_GND` |
+| VCC（USB 5V） | `VCC` |
+
+### 搜尋技巧
+1. 在 Eeschema 按 `A` 開啟 Add Symbol
+2. 上方 Filter 輸入 `Arduino_Mega2560_Lib:` 只看本專案符號庫（共 31 個符號）
+3. 從上表查到名字後直接搜（例如要 Polyfuse 就搜 `Fuse_1812`）
+
+---
+
 ## Git 協作流程
 
 ### 初始設定
