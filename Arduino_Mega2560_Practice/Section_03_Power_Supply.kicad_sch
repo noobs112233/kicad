@@ -1,0 +1,22 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f2b64c83-4c14-42af-bb63-1c56b9205f22")
+	(paper "A4")
+	(title_block
+		(title "Section 03: Power Supply")
+		(date "2026-04-10")
+		(rev "1")
+		(comment 1 "Arduino Mega 2560 - Student Practice")
+		(comment 2 "DC barrel jack, NCP1117 5V LDO, LP2985 3.3V LDO, PMV48XP PMOS, LMV358, power LEDs")
+		(comment 3 "Use symbols from: Arduino_Mega2560_Lib")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

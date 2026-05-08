@@ -1,0 +1,19 @@
+# KiCad
+*.bak
+*.kicad_prl
+*-backups/
+fp-info-cache
+
+# PCB layout files (students should only see schematic)
+*.kicad_pcb
+
+# Rescue backup (optional - remove this line if you want to track backups)
+rescue-backup/
+
+# Lock files
+*.lck
+~*.lck
+
+# OS
+.DS_Store
+Thumbs.db

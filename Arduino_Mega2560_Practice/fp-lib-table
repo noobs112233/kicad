@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Arduino_Mega2560_FP")(type "KiCad")(uri "${KIPRJMOD}/Arduino_Mega2560_FP.pretty")(options "")(descr "Arduino Mega 2560 custom footprints"))
+)
