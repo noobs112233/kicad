@@ -1396,6 +1396,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Arduino_Mega2560_Lib:Header_2x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Odd_Even"
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Arduino_Mega2560_FP:CONN_M20-9980245_HRW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Header_2x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Arduino_Mega2560_Lib:Header_2x03"
 			(pin_names
 				(offset 1.016)
@@ -1660,6 +1876,196 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Mega2560_Lib:LED_0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0805_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_0805_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3781,6 +4187,354 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Pack04_Split"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04_Split"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology, split"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_2_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_3_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_4_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3994,6 +4748,18 @@
 		(uuid "b04c3243-39e9-414f-ac85-1ff45e12a246")
 	)
 	(junction
+		(at 218.44 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bce8b3f3-12e0-48ae-b21f-6420d96b8717")
+	)
+	(junction
+		(at 247.65 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c37db1a0-7d0b-4a39-bdb1-6bdae521663a")
+	)
+	(junction
 		(at 55.88 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4004,6 +4770,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cef4f98f-595a-43eb-98b8-c48b03f3b260")
+	)
+	(junction
+		(at 247.65 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d510d15c-03ef-4d8c-a705-792d25c25a62")
 	)
 	(junction
 		(at 55.88 86.36)
@@ -4018,12 +4790,64 @@
 		(uuid "fb1a28a5-0a44-4681-a0b4-649cb6a00240")
 	)
 	(no_connect
+		(at 62.23 148.59)
+		(uuid "1637df44-5675-4194-ab28-2424c9ebe5a0")
+	)
+	(no_connect
+		(at 69.85 148.59)
+		(uuid "28b6c1ab-6d10-421a-9b1d-4debe3acf1d6")
+	)
+	(no_connect
+		(at 186.69 105.41)
+		(uuid "313fefc1-3d5d-4bfa-82ba-c5dadd44df0d")
+	)
+	(no_connect
+		(at 186.69 133.35)
+		(uuid "38ecf477-d61f-4d6d-a002-afd78a279d17")
+	)
+	(no_connect
+		(at 186.69 113.03)
+		(uuid "3bc2850b-b2ad-4da7-bd4a-50122a6f82c8")
+	)
+	(no_connect
+		(at 186.69 110.49)
+		(uuid "4fcd2a43-28a3-4908-af7d-a6e03d2b122d")
+	)
+	(no_connect
 		(at 55.88 101.6)
 		(uuid "5119c339-e906-4833-9489-04a0b46eb942")
 	)
 	(no_connect
+		(at 62.23 154.94)
+		(uuid "6bd832da-f722-44eb-afa0-cdf2b79c1592")
+	)
+	(no_connect
+		(at 186.69 102.87)
+		(uuid "75860d55-f22f-4815-90e1-bfeabf4423ca")
+	)
+	(no_connect
+		(at 186.69 135.89)
+		(uuid "7ce0fd93-8efe-4851-9532-9355222cd8f8")
+	)
+	(no_connect
+		(at 186.69 120.65)
+		(uuid "adac8cd1-9b5e-4e87-84a1-d1393847a74d")
+	)
+	(no_connect
+		(at 69.85 154.94)
+		(uuid "c3dfa4ee-a226-4f12-8996-36d60cac6658")
+	)
+	(no_connect
+		(at 186.69 97.79)
+		(uuid "eea178b9-e756-4a14-8de0-7136de2f7947")
+	)
+	(no_connect
 		(at 55.88 104.14)
 		(uuid "ef44f3b1-d801-4747-b3ac-07e7963ecc9f")
+	)
+	(no_connect
+		(at 186.69 107.95)
+		(uuid "f2f1a277-b819-4766-9b89-00b40983f9e4")
 	)
 	(wire
 		(pts
@@ -4034,6 +4858,16 @@
 			(type default)
 		)
 		(uuid "00188e58-ba2e-421e-a0c9-8f3e0e97f2d8")
+	)
+	(wire
+		(pts
+			(xy 208.28 57.15) (xy 191.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0093d41d-d455-409d-b52f-923821223bda")
 	)
 	(wire
 		(pts
@@ -4097,6 +4931,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 134.62) (xy 193.04 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bc9140-2693-4ebd-ba59-7837d092d39a")
+	)
+	(wire
+		(pts
+			(xy 220.98 148.59) (xy 220.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b0fe9d-0034-4734-9722-09f614d30f10")
+	)
+	(wire
+		(pts
 			(xy 55.88 91.44) (xy 55.88 93.98)
 		)
 		(stroke
@@ -4104,6 +4958,16 @@
 			(type default)
 		)
 		(uuid "08eebd8d-ff96-4cb1-8f91-1aaa5d7cfd11")
+	)
+	(wire
+		(pts
+			(xy 247.65 85.09) (xy 251.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af7fe59-07d2-4cc3-88b1-eb4b51abc1b2")
 	)
 	(wire
 		(pts
@@ -4137,6 +5001,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 118.11) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164f7534-6614-4fa9-bd54-515cfebc0049")
+	)
+	(wire
+		(pts
 			(xy 143.51 72.39) (xy 137.16 72.39)
 		)
 		(stroke
@@ -4144,6 +5018,16 @@
 			(type default)
 		)
 		(uuid "1c5f3407-9ced-418a-a4ca-6f2a3d7db447")
+	)
+	(wire
+		(pts
+			(xy 226.06 160.02) (xy 204.47 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1177b5-a5a6-4f90-8812-155190c65329")
 	)
 	(wire
 		(pts
@@ -4197,6 +5081,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 96.52) (xy 247.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e473bc-1cb0-448a-989d-0b0b7c4fc023")
+	)
+	(wire
+		(pts
 			(xy 146.05 83.82) (xy 146.05 85.09)
 		)
 		(stroke
@@ -4204,6 +5098,26 @@
 			(type default)
 		)
 		(uuid "2c078fa1-2204-4df0-bc58-79272ece3ba1")
+	)
+	(wire
+		(pts
+			(xy 238.76 134.62) (xy 247.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9d1187-0f5d-4b59-8fe0-b0b1ae6fcf62")
+	)
+	(wire
+		(pts
+			(xy 186.69 130.81) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30801668-8a55-4e89-bd8e-735dcc310fff")
 	)
 	(wire
 		(pts
@@ -4277,6 +5191,26 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 96.52) (xy 218.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb772aa-d591-4771-9031-1a821342a90a")
+	)
+	(wire
+		(pts
+			(xy 191.77 57.15) (xy 191.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c79e9e0-98f8-4bfc-9804-60cb40d53527")
+	)
+	(wire
+		(pts
 			(xy 198.12 90.17) (xy 186.69 90.17)
 		)
 		(stroke
@@ -4287,6 +5221,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 96.52) (xy 247.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea99b81-2d0c-48ca-8dbe-59644fbc4e72")
+	)
+	(wire
+		(pts
 			(xy 115.57 60.96) (xy 198.12 60.96)
 		)
 		(stroke
@@ -4294,6 +5238,46 @@
 			(type default)
 		)
 		(uuid "4519cbe2-0c97-4527-9112-4e03f4f6ff1b")
+	)
+	(wire
+		(pts
+			(xy 240.03 118.11) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b2dec9-2216-42fb-bde3-1d6da6db22b7")
+	)
+	(wire
+		(pts
+			(xy 208.28 74.93) (xy 208.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48da41f2-a421-4d07-a897-e111f2de86e9")
+	)
+	(wire
+		(pts
+			(xy 194.31 127) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e65d8a-91df-4d72-93b4-249e11b899ce")
+	)
+	(wire
+		(pts
+			(xy 205.74 74.93) (xy 205.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b12453b-f378-4449-ba8d-8e7a6adff0b9")
 	)
 	(wire
 		(pts
@@ -4347,6 +5331,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 148.59) (xy 196.85 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577d9537-e1c7-470c-84c9-965945283221")
+	)
+	(wire
+		(pts
 			(xy 148.59 102.87) (xy 148.59 110.49)
 		)
 		(stroke
@@ -4374,6 +5368,26 @@
 			(type default)
 		)
 		(uuid "605a4560-1d41-4fda-9c2e-5b444827e401")
+	)
+	(wire
+		(pts
+			(xy 186.69 128.27) (xy 220.98 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a5743d-6894-44d9-b7ab-9d5995db9911")
+	)
+	(wire
+		(pts
+			(xy 194.31 123.19) (xy 186.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621c5645-0652-47f9-82c3-90023701ebb5")
 	)
 	(wire
 		(pts
@@ -4414,6 +5428,16 @@
 			(type default)
 		)
 		(uuid "67d945f1-b702-4840-bce8-313cda093234")
+	)
+	(wire
+		(pts
+			(xy 215.9 134.62) (xy 231.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5e8edd-2dba-41eb-9dc2-6c0b3159b43b")
 	)
 	(wire
 		(pts
@@ -4477,6 +5501,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 127) (xy 231.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79606bf6-739b-4d44-b675-638b8817efee")
+	)
+	(wire
+		(pts
 			(xy 55.88 86.36) (xy 55.88 88.9)
 		)
 		(stroke
@@ -4484,6 +5518,16 @@
 			(type default)
 		)
 		(uuid "7b1beb1f-5c43-4b9a-8b12-358cb5222c32")
+	)
+	(wire
+		(pts
+			(xy 193.04 125.73) (xy 186.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8091ecaf-a4bd-4b81-8652-505826d1bb34")
 	)
 	(wire
 		(pts
@@ -4497,6 +5541,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 87.63) (xy 186.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900a7082-c5e0-42b0-ac71-f5722a35d37b")
+	)
+	(wire
+		(pts
+			(xy 195.58 62.23) (xy 205.74 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fca7b0-121f-437b-8cbf-ebb73da30c64")
+	)
+	(wire
+		(pts
 			(xy 139.7 135.89) (xy 119.38 135.89)
 		)
 		(stroke
@@ -4504,6 +5568,16 @@
 			(type default)
 		)
 		(uuid "93af88db-973e-4f41-9f99-01e5f5866ae8")
+	)
+	(wire
+		(pts
+			(xy 238.76 127) (xy 247.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9480f462-accd-4c0e-ab14-a6258f837eb5")
 	)
 	(wire
 		(pts
@@ -4554,6 +5628,16 @@
 			(type default)
 		)
 		(uuid "9dfff3aa-e1cb-4a9d-837d-1877f7ae937d")
+	)
+	(wire
+		(pts
+			(xy 191.77 80.01) (xy 186.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10ef317-3d70-4c59-bd15-91dd7dbb8442")
 	)
 	(wire
 		(pts
@@ -4637,6 +5721,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 85.09) (xy 262.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01628ff-60e2-4d4c-9d6d-2f69064a40d8")
+	)
+	(wire
+		(pts
 			(xy 69.85 121.92) (xy 69.85 111.76)
 		)
 		(stroke
@@ -4644,6 +5738,26 @@
 			(type default)
 		)
 		(uuid "b041f192-15c2-4adc-8db9-6b18cf391741")
+	)
+	(wire
+		(pts
+			(xy 185.42 160.02) (xy 196.85 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b241e3c6-667f-4c86-b170-dc8eff3352e8")
+	)
+	(wire
+		(pts
+			(xy 193.04 134.62) (xy 193.04 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cb5254-80e0-4a8a-a98f-68ea38a256d3")
 	)
 	(wire
 		(pts
@@ -4657,6 +5771,26 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 127) (xy 247.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c24dc6-af76-4e69-8275-01434e6873c4")
+	)
+	(wire
+		(pts
+			(xy 195.58 82.55) (xy 195.58 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcc419b-15be-4961-91c2-7aa6fabe36a3")
+	)
+	(wire
+		(pts
 			(xy 156.21 91.44) (xy 152.4 91.44)
 		)
 		(stroke
@@ -4664,6 +5798,26 @@
 			(type default)
 		)
 		(uuid "bbd2493c-d32a-40e8-98fd-66187b47093f")
+	)
+	(wire
+		(pts
+			(xy 208.28 127) (xy 194.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c009367e-3c4e-40e8-b958-0b686294a8fa")
+	)
+	(wire
+		(pts
+			(xy 240.03 96.52) (xy 240.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bc5ebe-1b38-4b9d-8b19-811f566b4b39")
 	)
 	(wire
 		(pts
@@ -4727,6 +5881,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 118.11) (xy 218.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf563c0-5ee2-4093-b0d9-5b9dd255ba17")
+	)
+	(wire
+		(pts
 			(xy 153.67 135.89) (xy 153.67 142.24)
 		)
 		(stroke
@@ -4787,6 +5951,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 134.62) (xy 247.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e010bf76-3f8d-46c5-a61f-8569e53ac9bf")
+	)
+	(wire
+		(pts
 			(xy 156.21 130.81) (xy 119.38 130.81)
 		)
 		(stroke
@@ -4794,6 +5968,16 @@
 			(type default)
 		)
 		(uuid "e4048e9b-b416-4da5-807b-44f72d768786")
+	)
+	(wire
+		(pts
+			(xy 208.28 57.15) (xy 208.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e5b84f-3a07-4447-bfd8-eb3dd4fd1fe0")
 	)
 	(wire
 		(pts
@@ -4814,6 +5998,16 @@
 			(type default)
 		)
 		(uuid "e90222d8-836f-42ec-b899-1d3703cc7da2")
+	)
+	(wire
+		(pts
+			(xy 186.69 82.55) (xy 195.58 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3e0335-d3f4-4549-aa14-ade7eb6528d7")
 	)
 	(wire
 		(pts
@@ -4857,6 +6051,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 85.09) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60884b6-9c23-4bf8-aeaf-29a71e8d99d7")
+	)
+	(wire
+		(pts
+			(xy 226.06 130.81) (xy 226.06 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f635711b-784c-4f51-b411-fd353cf6f2a2")
+	)
+	(wire
+		(pts
 			(xy 125.73 128.27) (xy 125.73 91.44)
 		)
 		(stroke
@@ -4877,6 +6091,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 148.59) (xy 220.98 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae608d1-06e3-4a11-9d0c-89525c8da584")
+	)
+	(wire
+		(pts
 			(xy 73.66 73.66) (xy 86.36 73.66)
 		)
 		(stroke
@@ -4884,6 +6108,36 @@
 			(type default)
 		)
 		(uuid "fcabcee5-402d-4d24-96f1-e2c3b343600f")
+	)
+	(wire
+		(pts
+			(xy 262.89 85.09) (xy 262.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8816ed-1bc2-44dc-bbd0-6fab1af4f75d")
+	)
+	(label "PE1"
+		(at 185.42 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c2a5b7b-74cf-41d3-8ce9-e3f7c1943fbd")
+	)
+	(label "RXL"
+		(at 189.23 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1484ed8b-54d1-4c6e-8167-c53aaa7fc301")
 	)
 	(label "RD-"
 		(at 143.51 125.73 0)
@@ -4895,6 +6149,26 @@
 		)
 		(uuid "28e2d03b-6a9a-4bf4-98e9-ea2451cb16e8")
 	)
+	(label "M8RXD"
+		(at 212.09 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cf0e3ff-e436-4987-9b7e-78b6d2c2101b")
+	)
+	(label "MOSI2"
+		(at 187.96 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31ae0fba-b4a7-4147-bb64-2d821c85f708")
+	)
 	(label "D+"
 		(at 66.04 91.44 0)
 		(effects
@@ -4904,6 +6178,16 @@
 			(justify left bottom)
 		)
 		(uuid "3b66043d-e437-418b-81ae-e5f1bc3dbd6c")
+	)
+	(label "M8RXD"
+		(at 187.96 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4341b9fa-74e8-4e9c-8108-ba5483df29bc")
 	)
 	(label "SCK2"
 		(at 119.38 74.93 0)
@@ -4915,6 +6199,26 @@
 		)
 		(uuid "45c8290c-e86d-4fc6-a371-ac5d65196ce6")
 	)
+	(label "TXL"
+		(at 190.5 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bece7a8-19e7-4eae-ba1c-cf8919fcbae7")
+	)
+	(label "SCK2"
+		(at 187.96 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ed0e642-49ba-4f53-8094-d13b77778689")
+	)
 	(label "RD+"
 		(at 144.78 128.27 0)
 		(effects
@@ -4924,6 +6228,16 @@
 			(justify left bottom)
 		)
 		(uuid "61171807-acf9-4ec9-a6a2-26efb728e663")
+	)
+	(label "8PB7"
+		(at 191.77 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65900cdf-d397-4cfc-a37e-06ecfe26d9fc")
 	)
 	(label "RD+"
 		(at 87.63 91.44 0)
@@ -4935,6 +6249,16 @@
 		)
 		(uuid "6a52e35c-7e18-459a-8514-69f4b71929ba")
 	)
+	(label "PE0"
+		(at 185.42 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7028df0c-d435-41d4-b76e-a8a3dd02a6fc")
+	)
 	(label "VUCAP"
 		(at 144.78 120.65 0)
 		(effects
@@ -4944,6 +6268,16 @@
 			(justify left bottom)
 		)
 		(uuid "7b182cac-f3f8-45ef-b833-934bdd28f741")
+	)
+	(label "8PB4"
+		(at 205.74 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9162bd23-f0d5-4934-a9ea-36bfbeebbc85")
 	)
 	(label "UGND"
 		(at 144.78 130.81 0)
@@ -4965,6 +6299,16 @@
 		)
 		(uuid "a06d5f55-5428-45f8-98b8-0ba744820db0")
 	)
+	(label "M8RXD"
+		(at 213.36 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5f4e349-65d2-4cff-bcf6-37b2c52d137c")
+	)
 	(label "MOSI2"
 		(at 139.7 74.93 0)
 		(effects
@@ -4984,6 +6328,36 @@
 			(justify left bottom)
 		)
 		(uuid "b1952bca-70b5-4395-a4e7-b1c8a06e161c")
+	)
+	(label "M8TXD"
+		(at 187.96 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5441066-daec-490c-9f6f-1bfdfbd08b95")
+	)
+	(label "8PB6"
+		(at 195.58 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c37f6b00-5565-43aa-8d57-71774fedf671")
+	)
+	(label "MISO2"
+		(at 187.96 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c75a80b9-978f-4a1d-a352-ec681d3f9552")
 	)
 	(label "RD-"
 		(at 86.36 86.36 0)
@@ -5014,6 +6388,16 @@
 			(justify left bottom)
 		)
 		(uuid "eb91e116-db8c-4afb-8bf1-9093aab0e615")
+	)
+	(label "8PB5"
+		(at 208.28 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f54d6c9d-15f9-4782-8f0f-2be820de8d36")
 	)
 	(label "RESET2"
 		(at 118.11 77.47 0)
@@ -5110,6 +6494,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 262.89 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c328c917-e568-4c11-9606-edb1c8f8eb5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.6203 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5554,6 +6962,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 132.08 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10451f21-d760-40b3-aa70-5060f4dcd4e8")
+		(property "Reference" "FID3"
+			(at 134.62 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 134.62 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Arduino_Mega2560_Lib:Varistor_0603")
 		(at 69.85 107.95 0)
 		(unit 1)
@@ -5685,6 +7169,259 @@
 			(project "Arduino_Mega2560_Practice"
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 132.08 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ddefb17-b4db-4065-bcfa-a1b39f50099b")
+		(property "Reference" "FID2"
+			(at 134.62 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 134.62 165.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 132.08 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 132.08 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Mega2560_Lib:RArray_4x0612")
+		(at 200.66 148.59 270)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f3a58af-dad4-4a0d-a747-ec2e83f3caa6")
+		(property "Reference" "RN4"
+			(at 196.596 145.542 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 203.962 145.542 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0612"
+			(at 200.66 146.558 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 200.66 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bbb960e8-0acd-47dd-a894-7cf58d4a3d2e")
+		)
+		(pin "8"
+			(uuid "256abdaf-9fab-407e-9c12-d1bf0b5d4438")
+		)
+		(pin "3"
+			(uuid "97debf85-8557-4c13-b54f-e9ac6365b212")
+		)
+		(pin "6"
+			(uuid "3eb16f83-4fc3-4d6c-9dba-65385bf07bcb")
+		)
+		(pin "4"
+			(uuid "cf78580c-784a-4a8c-ab08-f868b1917c0a")
+		)
+		(pin "5"
+			(uuid "2b689652-47ef-4170-8d22-879d2904c607")
+		)
+		(pin "7"
+			(uuid "6481b66c-a2a1-41c3-8a11-62e6db5e7bbc")
+		)
+		(pin "1"
+			(uuid "96a7fa74-9ecb-40bc-bd22-73c93070e6c4")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "RN4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Mega2560_Lib:C_SMD_0603")
+		(at 243.84 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26e2998c-baaf-4bc5-bdae-0e172d811f0a")
+		(property "Reference" "C7"
+			(at 243.84 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 243.84 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 247.65 95.5548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c32fc4cf-45bd-488a-8c4b-81fb7367419c")
+		)
+		(pin "1"
+			(uuid "7b4483bb-250e-4b8a-a78a-27409a702411")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5851,6 +7588,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Arduino_Mega2560_Lib:RArray_4x0612")
+		(at 200.66 160.02 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d21fb2f-4a17-4968-ad52-251d79034509")
+		(property "Reference" "RN4"
+			(at 198.12 156.972 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 203.708 156.972 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0612"
+			(at 200.66 162.052 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 200.66 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bbb960e8-0acd-47dd-a894-7cf58d4a3d2e")
+		)
+		(pin "8"
+			(uuid "256abdaf-9fab-407e-9c12-d1bf0b5d4438")
+		)
+		(pin "3"
+			(uuid "97debf85-8557-4c13-b54f-e9ac6365b212")
+		)
+		(pin "6"
+			(uuid "3eb16f83-4fc3-4d6c-9dba-65385bf07bcb")
+		)
+		(pin "4"
+			(uuid "cf78580c-784a-4a8c-ab08-f868b1917c0a")
+		)
+		(pin "5"
+			(uuid "2b689652-47ef-4170-8d22-879d2904c607")
+		)
+		(pin "7"
+			(uuid "6481b66c-a2a1-41c3-8a11-62e6db5e7bbc")
+		)
+		(pin "1"
+			(uuid "96a7fa74-9ecb-40bc-bd22-73c93070e6c4")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 87.63 107.95 0)
 		(unit 1)
@@ -6004,6 +7839,268 @@
 			(project "Arduino_Mega2560_Practice"
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 66.04 148.59 90)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36678336-8a34-49e5-aa86-10e5949899f4")
+		(property "Reference" "RN2"
+			(at 66.04 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 66.04 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0612"
+			(at 66.04 150.622 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 66.04 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "58c24791-3763-4a49-9409-1bf8349fe302")
+		)
+		(pin "5"
+			(uuid "3ddf36f4-2720-4da3-b861-92ca880b4b4e")
+		)
+		(pin "8"
+			(uuid "dd3392bf-b246-413c-84f8-410ebc6a4e69")
+		)
+		(pin "1"
+			(uuid "cf64a29e-d540-4bd8-8a5b-0c2f53db4cc7")
+		)
+		(pin "2"
+			(uuid "50720a1f-9a7b-4550-9021-0ea446a15552")
+		)
+		(pin "7"
+			(uuid "e20b5e30-c879-451a-9399-2d7123696ad8")
+		)
+		(pin "3"
+			(uuid "c80599ee-4f11-48d8-a6bc-257213234d67")
+		)
+		(pin "6"
+			(uuid "606f7d79-71da-4c5a-b308-d36031175dca")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "RN2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Mega2560_Lib:Header_2x02")
+		(at 205.74 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39206140-1544-480f-9571-4c3fce65b4ac")
+		(property "Reference" "J3"
+			(at 210.82 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_02x02_Odd_Even"
+			(at 210.82 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Arduino_Mega2560_FP:CONN_M20-9980245_HRW"
+			(at 205.74 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9363150a-4029-4d51-b35b-fecfea8b30d6")
+		)
+		(pin "2"
+			(uuid "acea39a2-391c-41cd-b86a-eed2d1b78eba")
+		)
+		(pin "3"
+			(uuid "c3917998-0172-411a-918c-aca1ed3e79b7")
+		)
+		(pin "4"
+			(uuid "39f62698-c4b4-4e94-baac-5acf68d91323")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Mega2560_Lib:PWR_5V")
+		(at 247.65 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40af705d-260b-48f5-b479-a990e18a24d7")
+		(property "Reference" "#PWR011"
+			(at 247.65 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 248.158 121.666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 247.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7ea0930-6e7e-4564-8455-885f4531cbdf")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6241,6 +8338,85 @@
 			(project "Arduino_Mega2560_Practice"
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Mega2560_Lib:LED_0805")
+		(at 212.09 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "587cff0d-a46e-41fa-87e0-988cb8f85ce3")
+		(property "Reference" "D3"
+			(at 215.138 132.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 206.502 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 212.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 212.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "45af028e-4281-42ca-b648-1494f38aad78")
+		)
+		(pin "1"
+			(uuid "56d2e524-0a61-4044-8dba-4b82196db694")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6489,6 +8665,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 132.08 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63175d46-2e55-4ee1-973c-400cc573ed4b")
+		(property "Reference" "FID4"
+			(at 134.62 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 134.62 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ca0e723-e6e5-4c82-acde-098dd5f19e88")
+		(property "Reference" "#PWR010"
+			(at 218.44 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "144f1e2b-9d12-4f4c-a728-d3887cdad646")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Arduino_Mega2560_Lib:C_SMD_0603")
 		(at 111.76 118.11 0)
 		(unit 1)
@@ -6565,6 +8895,106 @@
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "C9")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Mega2560_Lib:RArray_4x0612")
+		(at 218.44 111.76 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74037515-1067-4ac0-99cc-e187b3d52d6e")
+		(property "Reference" "RN3"
+			(at 220.98 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 220.98 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0612"
+			(at 216.408 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 218.44 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "931a1235-6654-4ac5-8842-798930b38d9b")
+		)
+		(pin "5"
+			(uuid "515d4737-9574-4368-adb4-e8710a74bd91")
+		)
+		(pin "8"
+			(uuid "d3ce50ac-3865-466c-99d4-e9dd82019f5c")
+		)
+		(pin "1"
+			(uuid "2f494ab5-0704-4be8-877b-d9e7644518e4")
+		)
+		(pin "2"
+			(uuid "2f89fd8a-3776-42bd-94fd-8debc83aafc4")
+		)
+		(pin "6"
+			(uuid "646cb97a-5d0a-4b2c-83be-0673a8b5aeba")
+		)
+		(pin "4"
+			(uuid "aaca6fb9-a37e-4588-a9e3-49df5a1c28c5")
+		)
+		(pin "7"
+			(uuid "f03a3409-2c05-4504-9c26-3388033e6d67")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "RN3")
+					(unit 4)
 				)
 			)
 		)
@@ -6647,6 +9077,103 @@
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "C8")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Mega2560_Lib:RArray_4x0612")
+		(at 234.95 134.62 90)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9568e307-b1f6-4118-83f5-c46fb0857355")
+		(property "Reference" "RN4"
+			(at 232.156 131.572 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 237.744 131.826 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0612"
+			(at 234.95 136.652 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 234.95 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "83c9611b-5bcb-45f0-b276-a89b88e43ffa")
+		)
+		(pin "8"
+			(uuid "32a27406-998c-4415-9a9a-c3e2fc9e1805")
+		)
+		(pin "4"
+			(uuid "00aa126c-d58c-43a7-b852-6ab15c2b6799")
+		)
+		(pin "3"
+			(uuid "b9f408c3-5213-44db-b59b-bf16a5f90a92")
+		)
+		(pin "6"
+			(uuid "b8563989-5ada-460c-94c8-d92b7bd16516")
+		)
+		(pin "2"
+			(uuid "039ebd19-69d8-494b-9f3b-4428d64bd9e6")
+		)
+		(pin "1"
+			(uuid "ee546b9c-d1bf-47d7-b131-9542980d3e9c")
+		)
+		(pin "5"
+			(uuid "7ded02bd-493f-490f-a05a-732f3489b28e")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "RN4")
+					(unit 4)
 				)
 			)
 		)
@@ -6828,6 +9355,86 @@
 			(project "Arduino_Mega2560_Practice"
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Mega2560_Lib:SolderJumper_2")
+		(at 255.27 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0c3c754-b291-4ac6-ac91-f07e20fd7ca1")
+		(property "Reference" "JP2"
+			(at 255.27 81.788 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 255.27 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 255.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79ab8a4b-500c-4f48-ae50-e6063cd2fc67")
+		)
+		(pin "1"
+			(uuid "5bb19984-74ba-4d3f-95ad-e6a395664175")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -7077,6 +9684,85 @@
 			(project "Arduino_Mega2560_Practice"
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Mega2560_Lib:LED_0805")
+		(at 212.09 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c88af505-4212-45a5-985b-3a8da9da09d3")
+		(property "Reference" "D1"
+			(at 215.138 124.968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 206.502 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 212.09 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 212.09 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f443ae5c-84e2-47b6-9e01-86b736b1543e")
+		)
+		(pin "1"
+			(uuid "3b33b944-670a-4ba9-ac41-d14ce23df23d")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7458,6 +10144,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 132.08 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde3aeae-a92b-4aa7-b996-5318f41cea76")
+		(property "Reference" "FID1"
+			(at 134.62 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 134.62 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 132.08 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 132.08 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 124.46 0)
 		(unit 1)
@@ -7530,6 +10292,103 @@
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "#PWR04")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Mega2560_Lib:RArray_4x0612")
+		(at 234.95 127 90)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8c27379-43fa-45e6-ae43-231332a4cd1d")
+		(property "Reference" "RN4"
+			(at 233.172 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 238.76 124.206 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0612"
+			(at 234.95 129.032 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 234.95 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "58e25f23-b63e-4863-934f-a487fcee1f7c")
+		)
+		(pin "2"
+			(uuid "652f3320-f363-4df9-956b-3e10586e0774")
+		)
+		(pin "1"
+			(uuid "a923c0db-362a-4115-8b9d-2bfec4300588")
+		)
+		(pin "3"
+			(uuid "d4a2f7d9-dbb3-4131-9fad-8c3c6a4532e2")
+		)
+		(pin "5"
+			(uuid "22745e8f-3d2d-44f7-93bb-7e03c6ad9d22")
+		)
+		(pin "8"
+			(uuid "b224d670-652e-4541-914c-8fae8c6d1aa1")
+		)
+		(pin "4"
+			(uuid "8b65dd07-4e06-45fc-8a20-bdaf36250126")
+		)
+		(pin "7"
+			(uuid "87385bb1-7c41-4195-b5e0-75f231958e34")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "RN4")
+					(unit 3)
 				)
 			)
 		)
@@ -7608,6 +10467,103 @@
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "#PWR02")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 66.04 154.94 90)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f352e51f-b2ef-4e65-9cfa-354c4ac69f56")
+		(property "Reference" "RN2"
+			(at 66.04 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 66.04 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0612"
+			(at 66.04 156.972 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 66.04 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "58c24791-3763-4a49-9409-1bf8349fe301")
+		)
+		(pin "5"
+			(uuid "3ddf36f4-2720-4da3-b861-92ca880b4b4d")
+		)
+		(pin "8"
+			(uuid "dd3392bf-b246-413c-84f8-410ebc6a4e68")
+		)
+		(pin "1"
+			(uuid "cf64a29e-d540-4bd8-8a5b-0c2f53db4cc6")
+		)
+		(pin "2"
+			(uuid "d10d7ecc-84f6-4bdc-a298-132087f8d2b8")
+		)
+		(pin "7"
+			(uuid "4dbd188b-b4d6-4a96-a859-ec25581f5e97")
+		)
+		(pin "3"
+			(uuid "4577c5d2-0c11-4258-ab43-27e82b3f5978")
+		)
+		(pin "6"
+			(uuid "e213b62a-40d0-461f-9e3e-418fa140e3f3")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "RN2")
+					(unit 3)
 				)
 			)
 		)

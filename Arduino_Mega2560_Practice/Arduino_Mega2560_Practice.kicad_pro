@@ -217,6 +217,7 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -290,10 +291,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -413,10 +418,18 @@
     "meta": {
       "version": 1
     },
+    "net_format_name": "",
     "page_layout_descr_file": "",
     "pin_symbol_size": 0.0,
     "plot_directory": "",
     "reuse_designators": true,
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
@@ -426,7 +439,7 @@
         "uuid": "a1b2c3d4-0001-0000-0000-000000000001"
       }
     ],
-    "used_designators": "R1-2,R4,J1-2,F1,RV1-3,C1-2,C11,#PWR1-9,RN2A1,U1,RN1,FB1,JP1,Y1,D1",
+    "used_designators": "RN1-2,RN4,R1,J3,D1,D3,#PWR10-11,C1,JP2,FID1-4",
     "variants": []
   },
   "sheets": [
