@@ -439,7 +439,7 @@
         "uuid": "a1b2c3d4-0001-0000-0000-000000000001"
       }
     ],
-    "used_designators": "RN1-2,RN4,R1,J3,D1,D3,#PWR10-11,C1,JP2,FID1-4",
+    "used_designators": "#PWR12-13,C11",
     "variants": []
   },
   "sheets": [

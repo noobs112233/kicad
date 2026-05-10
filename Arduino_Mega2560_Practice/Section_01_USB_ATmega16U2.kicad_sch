@@ -4535,6 +4535,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -5018,6 +5157,16 @@
 			(type default)
 		)
 		(uuid "1c5f3407-9ced-418a-a4ca-6f2a3d7db447")
+	)
+	(wire
+		(pts
+			(xy 102.87 111.76) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdfdc91-2dc3-474a-bdcd-8d30f428bd10")
 	)
 	(wire
 		(pts
@@ -5981,6 +6130,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 101.6) (xy 102.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6725279-a830-4118-a5f3-48f5064f9978")
+	)
+	(wire
+		(pts
 			(xy 156.21 85.09) (xy 153.67 85.09)
 		)
 		(stroke
@@ -6692,6 +6851,84 @@
 			(project "Arduino_Mega2560_Practice"
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08e60451-e9d4-476a-8594-0837a5705905")
+		(property "Reference" "#PWR013"
+			(at 102.87 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "259092e9-aa2d-4c5a-96bc-61cda4d9a85e")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7653,28 +7890,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "bbb960e8-0acd-47dd-a894-7cf58d4a3d2e")
+			(uuid "bbb960e8-0acd-47dd-a894-7cf58d4a3d2f")
 		)
 		(pin "8"
-			(uuid "256abdaf-9fab-407e-9c12-d1bf0b5d4438")
+			(uuid "256abdaf-9fab-407e-9c12-d1bf0b5d4439")
 		)
 		(pin "3"
-			(uuid "97debf85-8557-4c13-b54f-e9ac6365b212")
+			(uuid "97debf85-8557-4c13-b54f-e9ac6365b213")
 		)
 		(pin "6"
-			(uuid "3eb16f83-4fc3-4d6c-9dba-65385bf07bcb")
+			(uuid "3eb16f83-4fc3-4d6c-9dba-65385bf07bcc")
 		)
 		(pin "4"
-			(uuid "cf78580c-784a-4a8c-ab08-f868b1917c0a")
+			(uuid "cf78580c-784a-4a8c-ab08-f868b1917c0b")
 		)
 		(pin "5"
-			(uuid "2b689652-47ef-4170-8d22-879d2904c607")
+			(uuid "2b689652-47ef-4170-8d22-879d2904c608")
 		)
 		(pin "7"
-			(uuid "6481b66c-a2a1-41c3-8a11-62e6db5e7bbc")
+			(uuid "6481b66c-a2a1-41c3-8a11-62e6db5e7bbd")
 		)
 		(pin "1"
-			(uuid "96a7fa74-9ecb-40bc-bd22-73c93070e6c4")
+			(uuid "96a7fa74-9ecb-40bc-bd22-73c93070e6c5")
 		)
 		(instances
 			(project "Arduino_Mega2560_Practice"
@@ -8030,6 +8267,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 102.87 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dbc0324-5411-4712-9eda-9381794ba78f")
+		(property "Reference" "C11"
+			(at 106.68 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 106.68 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 103.8352 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6510bda9-f65c-47e4-95a5-931a17efca47")
+		)
+		(pin "2"
+			(uuid "4dc021f6-edfa-422b-ade1-865afb13971e")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Arduino_Mega2560_Lib:PWR_5V")
 		(at 247.65 125.73 0)
 		(unit 1)
@@ -8101,6 +8420,84 @@
 			(project "Arduino_Mega2560_Practice"
 				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 102.87 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4276cc6d-b365-4477-997c-1029340bdc30")
+		(property "Reference" "#PWR012"
+			(at 102.87 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 102.87 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 102.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eec8c49d-fa85-456f-94bd-484e0e381093")
+		)
+		(instances
+			(project "Arduino_Mega2560_Practice"
+				(path "/a1b2c3d4-0001-0000-0000-000000000001/a1b2c3d4-0001-0000-0000-000000000002"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
